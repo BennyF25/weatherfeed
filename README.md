@@ -1,2 +1,5 @@
 # weatherfeed
-A project to recreate the Classic The Weather Channel satellite data feed.
+A project to recreate the Classic The Weather Channel satellite data feed using a mixture of classic and modern hardware, to allow you to connect a Satelite dish, connect a Videocipher reciever to the satellite dish, connect data out of the videocipher to the data in of the Weather Star, connect whatever video you want to the video in on the Weather Star, and connect the video out on the Weather star to a modulator/TV set.
+
+The backend at the Satelite uplink site will pull Weather Data from the National Weather Service API or the NOAA Weather Wire Service, and format it to the same format/protocol as The Weather Channel used to use, and modulate it via preferably the same or similar subcarrier frequencies that The Weather Channel used to use( the Satellite would be in a different position to prevent interference with existing satellite services, so you would need to point the satellite dish differently.)
+this way you could just set it up as mentioned previously, and as long as your Weather Star was programmed/addressed correctly, you would recieve data and alerts for your area.
